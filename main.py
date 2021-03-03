@@ -15,7 +15,7 @@ NODE_D = NODE_R * 2
 class Window(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Pyside2 QGraphic View")
+        self.setWindowTitle("Network Designer")
         self.setGeometry(300, 200, 840, 720)
         self.current_id = 1
         self.createLayout()
